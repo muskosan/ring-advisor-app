@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('/fonts/HVD Fonts - BrandonGrotesque-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('/fonts/HVD Fonts - BrandonGrotesque-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Miller';
+  src: url('/fonts/Font Bureau - MillerDisplay-LightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 222.2 47.4% 11.2%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent: 210 40% 96%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 215 20.2% 65.1%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  --primary: 210 40% 98%;
+  --primary-foreground: 222.2 84% 4.9%;
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 212.7 26.8% 83.9%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom scrollbar hiding utility */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+header {
+  background: #101010;
+  height: 60px;
+
+  .menu {
+    width: 25px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .bag {
+    width: 20px;
+  }
+}
+body {
+  background: #efefef;
+}
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hero {
+  h2 {
+    letter-spacing: .05em;
+    color: #fff;
+    font-weight: 100;
+    &.italic {
+      font-family: 'Miller';
+    }
+  }
+}
+.button-tag {
+  font-size: 16px;
+}
+.active {
+  opacity: 1;
+  transition: .2s all;
+  .button-tag {
+    background: #007489;
+  }
+}
+.item-name {
+  font-size: 15px;
+}
+.percentage {
+  font-family: 'Miller';
+  font-weight: bold;
+  font-size: 13px;
+}
+.slider {
+  height: 6px;
+}
+.view-rings,
+.choose-this {
+  font-size: 18px;
+  font-weight: bold;
+}
+.result-text {
+  font-family: 'Miller';
+  font-size: 26px;
+}
+.results span {
+  font-size: 28px;
+}
+.update-options {
+  color: #6e2549;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.metals {
+  .active {
+    outline: 2px solid #007489;
+    opacity: 1;
+  }
+  
+  button {
+    border-radius: 3px;
+    opacity: .8;
+    div {
+      font-size: 16px;
+    }
+    &:first-of-type {
+      background: #9f9f9f;
+    }
+    &:nth-of-type(2) {
+      background: #d7b55e;
+    }
+    &:nth-of-type(3){
+      background: #cab097 ;
+    }
+  }
+}
