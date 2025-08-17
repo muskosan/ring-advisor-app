@@ -86,15 +86,15 @@ export default function App() {
           >
             {/* Header */}
             <header className="flex items-center justify-between p-4 text-white">
-              <img className='menu' src='/public/images/menu.png'></img>
-              <img className='logo' src='/public/images/RITANI.png'></img>
-              <img className='bag' src='/public/images/bag.png'></img>
+              <img className='menu' src='/images/menu.png'></img>
+              <img className='logo' src='/images/RITANI.png'></img>
+              <img className='bag' src='/images/bag.png'></img>
             </header>
 
             {/* Hero Section */}
             <div className="hero relative">
               <img 
-                src='/public/images/header-hero.jpg'
+                src='/images/header-hero.jpg'
                 alt="Diamond ring on hand"
                 className="w-full object-cover"
               />
