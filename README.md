@@ -1,12 +1,13 @@
 ## Prototype: Ring Advisor App 💍
 ### Visit working prototype: https://ringadvisor.vercel.app/
 
-A modern, interactive web application that helps users find the perfect engagement ring based on their preferences for metal type, ring style, diamond shape, and budget.
+- Simple prototype for an interactive web app that helps users find the perfect engagement ring based on their preferences.
+- Prototype originally built in InVision, now rebuilt using modern web app technologies. 
 
 ![App Screenshot](./public/images/app-screenshot-smaller.jpg)
 ![App Screenshot](./public/images/app-screenshot-2.jpg)
 
-## 🎨 Designed in Figma
+## 🎨 Designed in Photoshop and Figma
 ## 🚀 Tech Stack
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -50,7 +51,6 @@ npm run dev
 ring-advisor-app/
 ├── components/
 │   ├── ui/                 # Reusable UI components
-│   ├── figma/             # Figma-exported components
 │   ├── MetalSelector.tsx
 │   ├── RingStyleSelector.tsx
 │   ├── DiamondShapeSelector.tsx
