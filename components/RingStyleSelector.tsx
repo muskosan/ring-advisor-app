@@ -28,37 +28,37 @@ export function RingStyleSelector({ selected, onSelect }: RingStyleSelectorProps
       id: 'classic',
       name: 'classic',
       percentage: '15% choose',
-      image: '/images/ring-classic.png'
+      image: '/public/images/ring-classic.png'
     },
     {
       id: '3-stone',
       name: '3-stone',
       percentage: '8% choose',
-      image: '/images/ring-halo.png'
+      image: '/public/images/ring-halo.png'
     },
     {
       id: 'cathedral',
       name: 'cathedral',
       percentage: '7% choose',
-      image: '/images/ring-solitaire.png'
+      image: '/public/images/ring-solitaire.png'
     },
     {
       id: 'pave',
       name: 'pavé',
       percentage: '5% choose',
-      image: '/images/ring-classic.png'
+      image: '/public/images/ring-classic.png'
     },
     {
       id: 'vintage',
       name: 'vintage',
       percentage: '10% choose',
-      image: '/images/ring-halo.png'
+      image: '/public/images/ring-halo.png'
     },
     {
       id: 'twisted',
       name: 'twisted',
       percentage: '3% choose',
-      image: '/images/ring-halo.png'
+      image: '/public/images/ring-halo.png'
     }
   ];
 
