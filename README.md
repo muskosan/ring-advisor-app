@@ -6,7 +6,7 @@ A modern, interactive web application that helps users find the perfect engageme
 Designed in Photoshop, Figma
 Developed in stack below
 
-![App Screenshot](./public/images/app-screenshot.jpg)
+![App Screenshot](./public/images/app-screenshot-smaller.jpg)
 
 ## 🚀 Tech Stack
 
