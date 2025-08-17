@@ -33,10 +33,10 @@ export function RingRecommendations({ onBack, selectedOptions }: RingRecommendat
     rating: 5,
     reviewCount: 106,
     images: [
-      '/public/images/ring-results.png',
-      '/public/images/ring-results.png',
-      '/public/images/ring-results.png',
-      '/public/images/ring-results.png'
+      '/images/ring-results.png',
+      '/images/ring-results.png',
+      '/images/ring-results.png',
+      '/images/ring-results.png'
     ]
   };
 

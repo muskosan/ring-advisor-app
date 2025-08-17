@@ -16,49 +16,49 @@ export function DiamondShapeSelector({ selected, onSelect }: DiamondShapeSelecto
       id: 'round',
       name: 'round',
       percentage: '57% choose',
-      image: '/public/images/diamond-round.png'
+      image: '/images/diamond-round.png'
     },
     {
       id: 'princess',
       name: 'princess',
       percentage: '16% choose',
-      image: '/public/images/diamond-princess.png'
+      image: '/images/diamond-princess.png'
     },
     {
       id: 'cushion',
       name: 'cushion',
       percentage: '14% choose',
-      image: '/public/images/diamond-cushion.png'
+      image: '/images/diamond-cushion.png'
     },
     {
       id: 'emerald',
       name: 'emerald',
       percentage: '13% choose',
-      image: '/public/images/diamond-round.png'
+      image: '/images/diamond-round.png'
     },
     {
       id: 'oval',
       name: 'oval',
       percentage: '8% choose',
-      image: '/public/images/diamond-round.png'
+      image: '/images/diamond-round.png'
     },
     {
       id: 'pear',
       name: 'pear',
       percentage: '6% choose',
-      image: '/public/images/diamond-round.png'
+      image: '/images/diamond-round.png'
     },
     {
       id: 'marquise',
       name: 'marquise',
       percentage: '4% choose',
-      image: '/public/images/diamond-round.png'
+      image: '/images/diamond-round.png'
     },
     {
       id: 'heart',
       name: 'heart',
       percentage: '2% choose',
-      image: '/public/images/diamond-round.png'
+      image: '/images/diamond-round.png'
     }
   ];
 

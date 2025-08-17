@@ -16,49 +16,49 @@ export function RingStyleSelector({ selected, onSelect }: RingStyleSelectorProps
       id: 'halo',
       name: 'halo',
       percentage: '45% choose',
-      image: '/public/images/ring-halo.png'
+      image: '/images/ring-halo.png'
     },
     {
       id: 'solitaire',
       name: 'solitaire',
       percentage: '30% choose',
-      image: '/public/images/ring-solitaire.png'
+      image: '/images/ring-solitaire.png'
     },
     {
       id: 'classic',
       name: 'classic',
       percentage: '15% choose',
-      image: '/public/images/ring-classic.png'
+      image: '/images/ring-classic.png'
     },
     {
       id: '3-stone',
       name: '3-stone',
       percentage: '8% choose',
-      image: '/public/images/ring-halo.png'
+      image: '/images/ring-halo.png'
     },
     {
       id: 'cathedral',
       name: 'cathedral',
       percentage: '7% choose',
-      image: '/public/images/ring-solitaire.png'
+      image: '/images/ring-solitaire.png'
     },
     {
       id: 'pave',
       name: 'pavé',
       percentage: '5% choose',
-      image: '/public/images/ring-classic.png'
+      image: '/images/ring-classic.png'
     },
     {
       id: 'vintage',
       name: 'vintage',
       percentage: '10% choose',
-      image: '/public/images/ring-halo.png'
+      image: '/images/ring-halo.png'
     },
     {
       id: 'twisted',
       name: 'twisted',
       percentage: '3% choose',
-      image: '/public/images/ring-halo.png'
+      image: '/images/ring-halo.png'
     }
   ];
 
