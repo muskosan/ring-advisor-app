@@ -4,8 +4,8 @@
 - Simple prototype for an interactive web app that helps users find the perfect engagement ring based on their preferences.
 - Prototype originally built in InVision, now rebuilt using modern web app technologies. 
 
-![App Screenshot](./public/images/app-screenshot-smaller.jpg)
-![App Screenshot](./public/images/app-screenshot-2.jpg)
+![App Screenshot](./public/images/ring-advisor-ss1.jpg)
+![App Screenshot](./public/images/ring-advisor-ss2.jpg)
 
 ## 🎨 Designed in Photoshop and Figma
 ## 🚀 Tech Stack
