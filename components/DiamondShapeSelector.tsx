@@ -119,7 +119,7 @@ export function DiamondShapeSelector({ selected, onSelect }: DiamondShapeSelecto
         onMouseDown={handleMouseDown}
         onMouseLeave={handleMouseLeave}
       >
-        {diamondShapes.map((shape) => (
+        {diamondShapes.map((shape, index) => (
           <button
             key={shape.id}
             onClick={(e) => {
@@ -128,12 +128,11 @@ export function DiamondShapeSelector({ selected, onSelect }: DiamondShapeSelecto
                 onSelect(shape.id);
               }
             }}
-            className={`flex-shrink-0 m-1.5 transition-all pointer-events-auto flex flex-col ${selected === shape.id ? 'active' : ''
+            className={`diamond-shape flex-shrink-0 m-1.5 transition-all pointer-events-auto flex flex-col ${selected === shape.id ? 'active' : ''
               }`}
-            style={{ width: '150px' }}
           >
             <div className="relative rounded-md overflow-hidden w-full bg-white" style={{ height: '125px' }}>
-              <div className="p-3 h-full flex items-center justify-center">
+              <div className={`image-wrap ${index === 0 ? 'p-0' : 'p-3'} h-full flex items-center justify-center`}>
                 <ImageWithFallback
                   src={shape.image}
                   alt={shape.name}

@@ -188,3 +188,9 @@ body {
     }
   }
 }
+.diamond-shape {
+  width: 130px;
+  .image-wrap:first-of-kind {
+    padding: 0;
+  }
+}
