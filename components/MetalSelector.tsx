@@ -19,7 +19,7 @@ export function MetalSelector({ selected, onSelect }: MetalSelectorProps) {
             <button
               key={metal.id}
               onClick={() => onSelect(metal.id)}
-              className={`flex-1 py-1 px-4 text-center transition-all ${
+              className={`flex-1 py-1.5 px-4 text-center transition-all ${
                 metal.bgColor
               } text-white ${
                 selected === metal.id 

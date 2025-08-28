@@ -141,7 +141,7 @@ export function DiamondShapeSelector({ selected, onSelect }: DiamondShapeSelecto
               </div>
             </div>
             {/* Black tag below the image */}
-            <div className="button-tag bg-black bg-opacity-90 px-2 py-1 w-full">
+            <div className="button-tag bg-black bg-opacity-90 px-2 py-1.5 w-full">
               <div className="text-xs text-white flex justify-between items-center">
                 <span className='item-name'>{shape.name}</span>
                 <span className="percentage italic opacity-80">{shape.percentage}</span>

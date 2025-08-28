@@ -139,12 +139,15 @@ body {
   }
 }
 .item-name {
-  font-size: 15px;
+  font-size: 18px;
+  letter-spacing: -.05em;
 }
 .percentage {
   font-family: 'Miller';
   font-weight: bold;
   font-size: 13px;
+  position:relative;
+  top: 1px;
 }
 .slider {
   height: 9px;
@@ -203,4 +206,8 @@ body {
 }
 .budget {
   font-size: 18px;
+}
+.ring-inner {
+  border-radius: 4px 4px 0 0;
+  bottom: -1px;
 }

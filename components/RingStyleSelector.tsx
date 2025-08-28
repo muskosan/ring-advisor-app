@@ -130,9 +130,9 @@ export function RingStyleSelector({ selected, onSelect }: RingStyleSelectorProps
             }}
             className={`flex-shrink-0 m-0.5 transition-all pointer-events-auto flex flex-col ${selected === style.id ? 'active' : ''
               }`}
-            style={{ width: '130px' }}
+            style={{ width: '133px' }}
           >
-            <div className="relative overflow-hidden" style={{ height: '96px' }}>
+            <div className="ring-inner relative overflow-hidden" style={{ height: '96px' }}>
               <ImageWithFallback
                 src={style.image}
                 alt={style.name}
@@ -140,7 +140,7 @@ export function RingStyleSelector({ selected, onSelect }: RingStyleSelectorProps
               />
             </div>
             {/* Black tag below the image */}
-            <div className="button-tag bg-black bg-opacity-90 px-2 py-1 w-full">
+            <div className="button-tag bg-black bg-opacity-90 px-2 py-1.5 w-full">
               <div className="text-xs text-white flex justify-between items-center">
                 <span className='item-name'>{style.name}</span>
                 <span className="percentage italic opacity-80">{style.percentage}</span>
