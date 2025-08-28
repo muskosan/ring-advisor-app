@@ -111,8 +111,11 @@ body {
   background: #efefef;
 }
 .wrapper {
-  max-width: 500px;
+  max-width: 450px;
   margin: 0 auto;
+  transform: scale(.9);
+  top: -45px;
+  position: relative;
 }
 
 .hero {
@@ -144,7 +147,10 @@ body {
   font-size: 13px;
 }
 .slider {
-  height: 6px;
+  height: 9px;
+}
+.border-2 {
+  border-width: 2px;
 }
 .view-rings,
 .choose-this {
@@ -172,10 +178,11 @@ body {
   }
   
   button {
+    width: 130px;
     border-radius: 3px;
     opacity: .8;
     div {
-      font-size: 16px;
+      font-size: 18px;
     }
     &:first-of-type {
       background: #9f9f9f;
@@ -193,4 +200,7 @@ body {
   .image-wrap:first-of-kind {
     padding: 0;
   }
+}
+.budget {
+  font-size: 18px;
 }

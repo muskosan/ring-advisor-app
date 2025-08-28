@@ -103,7 +103,7 @@ export function DiamondPreferenceSlider({ value, onChange }: DiamondPreferenceSl
     <div>
       <h3 className="text-gray-800 mb-2 uppercase tracking-wide">Diamond Preference</h3>
       
-      <div className="px-4">
+      <div className="">
         {/* End labels */}
         <div className="flex justify-between mb-3">
           <span className="text-gray-700">better quality</span>
@@ -125,7 +125,7 @@ export function DiamondPreferenceSlider({ value, onChange }: DiamondPreferenceSl
             {markers.map((markerValue) => (
               <div
                 key={markerValue}
-                className={`w-4 h-4 rounded-full border-2 transition-colors relative z-10 ${
+                className={`w-6 h-6 rounded-full border-2 transition-colors relative z-10 ${
                   value === markerValue && !isDragging
                     ? 'bg-teal-600 border-teal-600'
                     : 'bg-gray-300 border-gray-300'

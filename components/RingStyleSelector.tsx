@@ -128,7 +128,7 @@ export function RingStyleSelector({ selected, onSelect }: RingStyleSelectorProps
                 onSelect(style.id);
               }
             }}
-            className={`flex-shrink-0 m-1.5 transition-all pointer-events-auto flex flex-col ${selected === style.id ? 'active' : ''
+            className={`flex-shrink-0 m-0.5 transition-all pointer-events-auto flex flex-col ${selected === style.id ? 'active' : ''
               }`}
             style={{ width: '130px' }}
           >

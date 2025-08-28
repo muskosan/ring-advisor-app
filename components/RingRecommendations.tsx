@@ -262,7 +262,7 @@ export function RingRecommendations({ onBack, selectedOptions }: RingRecommendat
           {[...Array(5)].map((_, i) => (
             <Star 
               key={i} 
-              className={`w-4 h-4 ${
+              className={`w-6 h-6 ${
                 i < ring.rating 
                   ? 'fill-yellow-400 text-yellow-400' 
                   : 'fill-gray-200 text-gray-200'
@@ -303,7 +303,7 @@ export function RingRecommendations({ onBack, selectedOptions }: RingRecommendat
             disabled={isTransitioning}
             className="text-gray-600 hover:text-gray-800 transition-colors flex items-center justify-center gap-1 disabled:opacity-50"
           >
-            <ChevronLeft className="w-4 h-4" />
+            <ChevronLeft className="w-6 h-6" />
             <span className="update-options uppercase tracking-wide text-sm">
               {isTransitioning ? 'LOADING...' : 'UPDATE OPTIONS'}
             </span>

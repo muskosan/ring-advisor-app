@@ -14,7 +14,7 @@ export function BudgetSelector({ selected, onSelect }: BudgetSelectorProps) {
           <button
             key={budget}
             onClick={() => onSelect(budget)}
-            className={`flex-1 py-1 px-4 rounded-lg text-center transition-colors ${
+            className={`budget flex-1 py-1 px-4 rounded-lg text-center transition-colors ${
               selected === budget 
                 ? 'bg-gray-800 text-white' 
                 : 'bg-gray-100 text-gray-600'
